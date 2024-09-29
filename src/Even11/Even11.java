@@ -10,17 +10,17 @@ import java.util.Scanner;
 public class Even11 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int n = scan.nextInt();
+        long n = scan.nextLong();
         System.out.println(even(n));
     }
 
-    private static boolean even(int n) {
-        int sumOdd = 0;
-        int sumEven = 0;
+    private static boolean even(long n) {
+        long sumOdd = 0;
+        long sumEven = 0;
         boolean even = true;
 
         while (n > 0) {
-            int temp = n % 10;
+            long temp = n % 10;
             n /= 10;
 
             if (even) {
