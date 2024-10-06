@@ -13,7 +13,7 @@ public class Divider {
         Scanner sc = new Scanner(System.in);
         System.out.println("Напишите на сколько хотите разделить массив: ");
         int divider = sc.nextInt();
-        int[] arr = {1,2,3,4,5,6};
+        int[] arr = {1,2,3,4,5,6,7,8,9,10};
         System.out.println(Arrays.toString(divisibleBy(arr, divider)));
     }
     public static int[] divisibleBy(int[] numbers, int divider) {
