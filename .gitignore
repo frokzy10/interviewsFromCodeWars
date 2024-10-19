@@ -24,6 +24,8 @@ bin/
 
 ### VS Code ###
 .vscode/
-
+.idea/
+.idea/.name
 ### Mac OS ###
 .DS_Store
+src/ACOURSEALGO/FindFile/SearchFile.java
