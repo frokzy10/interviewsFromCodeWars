@@ -10,7 +10,6 @@ public class DecimicalDigits {
     public static int Digits(long n) {
         String digits = String.valueOf(n);
 
-
         return Integer.parseInt(String.valueOf(digits.length()));
     }
 }

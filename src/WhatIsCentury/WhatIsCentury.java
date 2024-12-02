@@ -1,5 +1,4 @@
 package WhatIsCentury;
-
 import java.time.LocalDateTime;
 
 public class WhatIsCentury {
